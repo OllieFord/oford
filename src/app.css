@@ -3,38 +3,34 @@
 @tailwind utilities;
 
 @layer base {
-  h1, h2, h3, h4 {
-    @apply font-bold;
-  }
+	h1,
+	h2,
+	h3,
+	h4 {
+		@apply font-bold;
+	}
 }
-
-
-
 
 @layer base {
-  @font-face {
-      font-family: 'Junicode';
-      src: local('Junicode'),
-         url('/static/fonts/Junicode.woff') format('woff');
-  }
+	@font-face {
+		font-family: 'Junicode';
+		src: local('Junicode'), url('/static/fonts/Junicode.woff') format('woff');
+	}
 }
 
-
 body {
-  font-family: 'junicode';
+	font-family: 'junicode';
 }
 
 article > p {
-  margin-bottom: 1.5rem;
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+	margin-bottom: 1.5rem;
+	font-size: 1.25rem;
+	line-height: 1.75rem;
 }
 
 article > h2 {
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-  font-size: 1.5rem;
-  line-height: 1.2rem;
-
+	margin-bottom: 1rem;
+	margin-top: 2rem;
+	font-size: 1.5rem;
+	line-height: 1.2rem;
 }
-
