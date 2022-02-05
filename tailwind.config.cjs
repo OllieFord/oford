@@ -1,11 +1,13 @@
 module.exports = {
-  purge: [
-    './src/**/*.html',
-    './src/**/*.svelte'
-  ],
-  content: [],
+  content: ["./src/**/*.{html,js,svelte}"],
   theme: {
-    extend: {},
+    theme: {
+      extend: {
+        fontFamily: {
+          body: ['Junicode'],
+        },
+      }
+    },
   },
   plugins: [],
 }
