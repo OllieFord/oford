@@ -3,8 +3,8 @@
 	<h2 class="text-3xl mt-2 mb-4">I design and build intelligent applications.</h2>
 	<div class="text-xl space-y-2">
 		<p>
-			I work as a freelance Data Scientist implementing machine learning algorithms, collecting,
-			processing and analysing data.
+			I work as a Machine Learning Engineer Data at Xomnia implementing machine learning algorithms,
+			collecting, processing and analysing data.
 		</p>
 		<p>
 			I specialise in extracting knowledge from Language <span class="font-bold">[NLP]</span>,

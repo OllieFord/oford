@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="h-full" lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="description" content="" />
-		<link rel="icon" href="/favicon.png" />
+		<link rel="icon" href="/favicon.ico" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="preload" href="/static/fonts/Junicode.woff" as="font" type="font/woff" crossorigin>
 		%svelte.head%
 	</head>
-	<body class="bg-slate-50 h-full">
-		<div id="svelte">%svelte.body%</div>
+	<body class="bg-slate-50">
+		<div class="min-h-screen" id="svelte">%svelte.body%</div>
 	</body>
 </html>
