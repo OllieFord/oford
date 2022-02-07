@@ -3,7 +3,7 @@
 	<h2 class="text-3xl mt-2 mb-4">I design and build intelligent applications.</h2>
 	<div class="text-xl space-y-2">
 		<p>
-			I work as a Machine Learning Engineer Data at Xomnia implementing machine learning algorithms,
+			I work as a Machine Learning Engineer at Xomnia implementing machine learning algorithms,
 			collecting, processing and analysing data.
 		</p>
 		<p>
