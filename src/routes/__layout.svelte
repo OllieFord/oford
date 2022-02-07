@@ -4,6 +4,10 @@
 	import Footer from '$lib/components/layout/footer.svelte';
 </script>
 
+<svelte:head>
+	<link rel="preload" href="/static/fonts/Junicode.woff" as="font" type="font/woff" crossorigin />
+</svelte:head>
+
 <Header />
 <main class="container max-w-3xl mx-auto px-4 my-4 ">
 	<slot />
