@@ -13,8 +13,7 @@ const config = {
 	preprocess: [mdsvex(mdsvexConfig),
 				preprocess({ 
 						postcss: true,
-					 	typescript: true,
-					  	replace: ['import.meta.env.VERCEL_ANALYTICS_ID', JSON.stringify(process.env.VERCEL_ANALYTICS_ID)] }),
+					 	typescript: true}),
 				],
 			
 
