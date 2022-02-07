@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Ollie Ford - Home</title>
+</svelte:head>
+
 <div class="text-slate-800">
 	<h1 class="text-4xl mt-2 mb-4">Hi, I'm Ollie!</h1>
 	<h2 class="text-3xl mt-2 mb-4">I design and build intelligent applications.</h2>
