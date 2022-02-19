@@ -11,7 +11,7 @@
 			collecting, processing and analysing data.
 		</p>
 		<p>
-			I specialise in extracting knowledge from Language <span class="font-bold">[NLP]</span>,
+			I specialise in extracting knowledge from language <span class="font-bold">[NLP]</span>,
 			understanding why systems make the decisons they do
 			<span class="font-bold">[Interpretability]</span>
 			and creating systems that augment and improve a users quality of life
