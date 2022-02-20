@@ -14,7 +14,7 @@
 	h2,
 	h3,
 	h4 {
-		@apply font-bold;
+		@apply font-bold text-[#331f22];
 	}
 }
 
@@ -23,10 +23,15 @@
 		font-family: 'Junicode';
 		src: local('Junicode'), url('/static/fonts/Junicode.woff') format('woff');
 	}
+	body {
+		@apply subpixel-antialiased leading-7;
+	}
 }
 
 body {
 	font-family: 'junicode';
+	color: #53565a;
+	background-color: #fcfcfc;
 }
 
 article > p {

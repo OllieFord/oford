@@ -13,7 +13,7 @@
                     li 
                         a(href="#") Linkedin
             div(class="sm:w-2/3 space-y-2 w-full")
-                p(class="text-xs") Oliver Ford designs and implements delightful machine learning systems. He's currently a machine learning engineer at Xomnia. Previously, he worked as a freelance machine learning engineer.
-                p(class="text-xs") © Oliver Ford {currentDate.getFullYear().toString()}
+                p(class="text-sm") Oliver Ford designs and implements delightful machine learning systems. He's currently a machine learning engineer at Xomnia. Previously, he worked as a freelance machine learning engineer.
+                p(class="text-sm") © Oliver Ford {currentDate.getFullYear().toString()}
 
 </template>
