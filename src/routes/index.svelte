@@ -3,7 +3,7 @@
 </svelte:head>
 
 <div class="">
-	<h1 class="text-4xl mt-2 mb-4 text-slate-800">Hi, I'm Jörgen!</h1>
+	<h1 class="text-4xl mt-2 mb-4 text-slate-800">Hi, I'm Ollie!</h1>
 	<h2 class="text-3xl mt-2 mb-4 text-slate-800">I design and build intelligent applications.</h2>
 	<div class="text-xl space-y-5 ">
 		<p>
