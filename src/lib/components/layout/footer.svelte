@@ -4,7 +4,7 @@
 
 <!-- svelte-ignore a11y-invalid-attribute -->
 <template lang="pug">
-    footer(class=" container grid mx-auto max-w-3xl px-4 mt-8 py-8 align-middle content-center" )
+    footer(class=" container grid mx-auto max-w-3xl px-4 mt-auto py-8 align-middle content-center" )
         div(class="flex flex-row text-slate-500 py-4 border-t ")
             div(class="sm:w-1/3 text-xs w-full")
                 ul(class="space-y-2")
