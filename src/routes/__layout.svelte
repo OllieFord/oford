@@ -25,7 +25,7 @@
 	<main
 		in:fade={{ duration: 150, delay: 150 }}
 		out:fade={{ duration: 150 }}
-		class="container max-w-3xl mx-auto px-4 mt-12 mb-24 flex-1 min-h-full"
+		class="container max-w-3xl mx-auto px-4 mt-4 mb-12 lg:mt-12 lg:mb-24 flex-1 min-h-full"
 	>
 		<slot />
 	</main>

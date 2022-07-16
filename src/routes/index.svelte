@@ -3,8 +3,8 @@
 </svelte:head>
 
 <article class="prose lg:prose-2xl leading-8">
-	<h2 class=" text-slate-800 font-bold">Hi, I'm Ollie!</h2>
-	<h2 class=" text-slate-800/80 font-normal">
+	<h1 class=" text-slate-800 font-bold">Hi, I'm Ollie!</h1>
+	<h2 class=" text-slate-800/60 font-semibold">
 		I design and build <span
 			class="font-base bg-gradient-to-r bg-clip-text  text-transparent 
             from-indigo-500 via-purple-500 to-indigo-500
