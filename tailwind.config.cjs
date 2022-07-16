@@ -1,13 +1,13 @@
 module.exports = {
-  content: ["./src/**/*.{html,js,svelte}"],
-  theme: {
+    content: ["./src/**/*.{html,js,svelte}"],
     theme: {
-      extend: {
-        fontFamily: {
-          body: ['Junicode'],
+        theme: {
+            extend: {
+                fontFamily: {
+                    body: ['Junicode'],
+                },
+            }
         },
-      }
     },
-  },
-  plugins: [],
+    plugins: [require('@tailwindcss/typography')],
 }
