@@ -34,7 +34,7 @@
 </svelte:head>
 
 <article>
-	<h1 class="text-3xl my-3">{title}</h1>
+	<h1 class="text-3xl my-3 ">{title}</h1>
 	<slot />
 </article>
 
