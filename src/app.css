@@ -14,7 +14,7 @@
 @layer base {
 	@font-face {
 		font-family: 'Junicode';
-		src: local('Junicode'), url('/static/fonts/Junicode.woff') format('woff');
+		src: local('Junicode'), url('static/fonts/Junicode.woff') format('woff');
 	}
 	body {
 		@apply subpixel-antialiased;

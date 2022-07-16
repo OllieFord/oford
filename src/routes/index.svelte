@@ -6,8 +6,9 @@
 	<h2 class=" text-slate-800 font-bold">Hi, I'm Ollie!</h2>
 	<h2 class=" text-slate-800/80 font-normal">
 		I design and build <span
-			class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
-			>intelligent</span
+			class="font-base bg-gradient-to-r bg-clip-text  text-transparent 
+            from-indigo-500 via-purple-500 to-indigo-500
+            animate-text">intelligent</span
 		> applications.
 	</h2>
 
