@@ -14,15 +14,17 @@
 	import '../app.css';
 	import Header from '$lib/components/layout/header.svelte';
 	import Footer from '$lib/components/layout/footer.svelte';
+	import { navigating } from '$app/stores';
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
 
 	export let currentRoute;
 
 	async function page_view() {
-		const response = await fetch('https://oford.me/api/page_view');
-		return await response.json();
+		fetch('https://oford.me/api/page_view', { mode: 'no-cors' });
 	}
+
+	$: if ($navigating) page_view();
 
 	onMount(async () => {
 		page_view();
