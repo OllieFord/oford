@@ -36,6 +36,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@supabase/supabase-js": "^1.35.4",
     "hastscript": "^7.0.2",
     "p-map": "^5.3.0",
     "pug": "^3.0.2",
@@ -49,8 +50,8 @@
     "remark-abbr": "^1.4.1",
     "web-vitals": "^2.1.4"
   },
-  "engines" : { 
-    "npm" : ">=7.0.0",
-    "node" : ">=16.0.0"
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=16.0.0"
   }
 }
