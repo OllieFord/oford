@@ -20,7 +20,7 @@
                 a(class="text-lg inline-block align-middle min-w-11 text-center text-slate-600 hover:text-slate-400 transition-all ease-in-out duration-500" target="_blank" rel="noopener noreferrer" href="https://github.com/OllieFord") Github
 
             <button aria-label="open menu" class="h-11 w-11 sm:hidden" on:click={() => sidebar_show = !sidebar_show}>
-                <img alt="The project logo" src={menu} />
+                <img alt="menu button" src={menu} />
             </button>
 
     <Sidebar bind:show={sidebar_show} />
