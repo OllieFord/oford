@@ -19,7 +19,14 @@
 
 	export let currentRoute;
 
-	onMount(async () => {});
+	async function page_view() {
+		const response = await fetch('https://oford.me/api/page_view');
+		return await response.json();
+	}
+
+	onMount(async () => {
+		page_view();
+	});
 </script>
 
 <Header />
