@@ -5,6 +5,7 @@ module.exports = {
             extend: {
                 fontFamily: {
                     body: ['Junicode'],
+                    wotfard: ['Wotfard']
                 },
                 animation: {
                     text: 'text 5s ease infinite',

@@ -1,13 +1,11 @@
 <script>
 	import menu from '$lib/assets/menu-outline.svg';
-	import Sidebar from './Sidebar.svelte';
+	import Sidebar from './Navsidebar.svelte';
 	let sidebar_show = false;
 </script>
 
 <template lang="pug">
     nav(class="container grid mx-auto max-w-5xl px-4 mb-8 align-middle content-center ")
-        //- div(class="flex flex-row gap-3")
-            
         div(class="flex flex-row justify-between mt-4 pb-4 ")
             div(class="flex flex-row items-center")
                 a(class="mr-8 " href="/")
