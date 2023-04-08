@@ -1,3 +1,5 @@
+
+
 <script context="module">
 	export const load = ({ url }) => {
 		const currentRoute = url.pathname;
@@ -8,6 +10,7 @@
 			}
 		};
 	};
+
 </script>
 
 <script lang="ts">
@@ -17,6 +20,14 @@
 	import { navigating } from '$app/stores';
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
+    import { dev } from '$app/environment';
+    import { inject } from '@vercel/analytics';
+
+
+    inject({mode: dev ? 'development':'production'})
+
+
+    
 
 	export let currentRoute;
 
