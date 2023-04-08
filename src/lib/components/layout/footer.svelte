@@ -5,7 +5,7 @@
 	import { onMount } from 'svelte';
 	let currentDate = new Date();
 
-	let data;
+	let data: string[] = [""];
 
 	async function getPageViews() {
 		supabase
@@ -14,7 +14,7 @@
 			.eq('stat_name', 'total page views')
 			.select('stat_value')
 			.then((res) => {
-				data = res.data[0];
+				data = res!.data[0];
 			});
 	}
 
@@ -37,19 +37,30 @@
             div(class="flex flex-row")
                 div(class="space-y-3 prose")
                 div(class="space-y-4 w-52 text-sm ml-24")
-                    p(class="") Stats
-                    div(class="grid gap-3 grid-cols-1 text-black ")
-                        +if('data')
-                            div(class="flex flex-row gap-2 items-center")
-                                p(class="font-semibold") {data.stat_value}
-                                p(class="text-xs text-black/40") Total Page Views
+                    +if('data.stat_value')
+                        p(class="") Stats
+                        div(class="grid gap-3 grid-cols-1 text-black ")
+                                div(class="flex flex-row gap-2 items-center")
+                                    p(class="font-semibold") {data.stat_value}
+                                    p(class="text-xs text-black/40") Total Page Views
+                        +else()
+                            p(class="") Stats
+                            div(class="grid gap-3 grid-cols-1 text-black ")
+                                    div(class="flex flex-row gap-2 items-center")
+                                        p(class="font-semibold") 🔥
+                                        p(class="text-xs text-black/40") Total Page Views
+
+                
+                        
+                        
+
             
                 div(class="space-y-4 text-sm ml-24")
                     p(class="") Links
                     div(class="grid w-24 gap-2 text-black")
-                        a() Linkedin 
-                        a() Github
-                        a() Contact
+                        a(href="https://www.linkedin.com/in/oliver-ford-3157229b/") Linkedin 
+                        a(href="https://github.com/OllieFord") Github
+                        a(href="#") Contact
 
         div(class="flex flex-col sm:hidden")
             div(class=" text-xs w-full flex flex-col justify-center text-center pb-8")
@@ -69,9 +80,9 @@
                 div(class="space-y-4 text-sm")
                     p(class="") Links
                     div(class="grid gap-2 text-black")
-                        a() Linkedin 
-                        a() Github
-                        a() Contact
+                        a(href="https://www.linkedin.com/in/oliver-ford-3157229b/") Linkedin 
+                        a(href="https://github.com/OllieFord") Github
+                        a(href="#") Contact
             
             div(class="pt-12 text-center")
                 p(class="text-xs text-slate-700/40") ©{currentDate.getFullYear().toString()} Oliver Ford. All Rights Reserved.

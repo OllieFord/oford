@@ -10,16 +10,15 @@
 		>
 	</h2>
 	<h2 class=" text-slate-800/60 font-normal mt-4">
-		I design and build <span
+		I design, build and operate <span
 			class="font-base bg-gradient-to-r bg-clip-text  text-transparent 
             from-indigo-500 via-purple-500 to-indigo-500
-            animate-text">intelligent</span
-		> applications.
+            animate-text">machine learning</span
+		> systems at scale.
 	</h2>
 	<div class="text-lg">
 		<p>
-			I work as a <span class="font-bold">Machine Learning Engineer</span> at Xomnia implementing machine
-			learning algorithms, collecting, processing and analysing data.
+            Currently, I work as a <span class="font-bold">Machine Learning Engineer</span> at <a class="text-indigo-600 " href="https://sympower.net/">Sympower</a>, shipping ML and forecasting systems to help customers participate on the energy flexibility market.
 		</p>
 		<p>
 			I specialise in extracting knowledge from language <span class="font-bold">[NLP]</span>,
