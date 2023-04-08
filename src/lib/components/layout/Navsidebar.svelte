@@ -17,12 +17,6 @@
 		</div>
 		<div class="flex flex-col gap-6 text-xl font-semibold">
 			<a
-				href="/writing"
-				on:click={() => {
-					show = false;
-				}}>Writing</a
-			>
-			<a
 				href="https://www.linkedin.com/in/oliver-ford-3157229b/"
 				on:click={() => {
 					show = false;
