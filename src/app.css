@@ -9,16 +9,18 @@
 	}
 }
 
-
-
 @layer base {
 	@font-face {
 		font-family: 'Junicode';
-		src: local('Junicode'), url('/fonts/Junicode.woff') format('woff');
+		src:
+			local('Junicode'),
+			url('/fonts/Junicode.woff') format('woff');
 	}
-    @font-face {
+	@font-face {
 		font-family: 'Wotfard';
-		src: local('Wotfard'), url('/fonts/wotfard-regular-webfont.woff2') format('woff');
+		src:
+			local('Wotfard'),
+			url('/fonts/wotfard-regular-webfont.woff2') format('woff');
 	}
 	body {
 		@apply subpixel-antialiased;
@@ -26,7 +28,20 @@
 }
 
 body {
-	font-family: Wotfard, system-ui, -apple-system, BlinkMacSystemFont,'Segoe UI', Roboto, Oxygen,Ubuntu,Cantarell,'Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
+	font-family:
+		Wotfard,
+		system-ui,
+		-apple-system,
+		BlinkMacSystemFont,
+		'Segoe UI',
+		Roboto,
+		Oxygen,
+		Ubuntu,
+		Cantarell,
+		'Fira Sans',
+		'Droid Sans',
+		'Helvetica Neue',
+		sans-serif;
 	color: #53565a;
 	background-color: #fcfcfc;
 }
